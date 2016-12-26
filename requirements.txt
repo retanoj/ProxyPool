@@ -1,3 +1,5 @@
 gevent
 requests[socks]
 redis
+pytesseract
+PIL
