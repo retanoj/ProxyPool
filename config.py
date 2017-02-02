@@ -33,7 +33,7 @@ fake_headers = {
     "Accept": "*/*",
     'Referer' : 'http://www.baidu.com',
     "User-Agent": random.choice(USER_AGENTS),
-    'X_FORWARDED_FOR': '%d.%d.%d.%d' % (random.randint(1, 254),random.randint(1, 254),random.randint(1, 254),random.randint(1, 254)),
+    'X-FORWARDED-FOR': '%d.%d.%d.%d' % (random.randint(1, 254),random.randint(1, 254),random.randint(1, 254),random.randint(1, 254)),
     'Cookie': "",
 }
 
